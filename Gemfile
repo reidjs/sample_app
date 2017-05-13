@@ -12,6 +12,8 @@ gem 'minitest', '~> 5.10', '!= 5.10.2'
 gem 'rails', '~> 5.1.0'
 # Bootstrap for css 
 gem 'bootstrap-sass', '3.3.6'
+#for secure passwords
+gem 'bcrypt', '3.1.11'
 # Use POSTSEGRE(?) as the database for Active Record
 gem 'pg'
 #to prevent the assert template error from throwing
