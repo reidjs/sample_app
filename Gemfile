@@ -14,6 +14,8 @@ gem 'rails', '~> 5.1.0'
 gem 'bootstrap-sass', '3.3.6'
 # Use POSTSEGRE(?) as the database for Active Record
 gem 'pg'
+#to prevent the assert template error from throwing
+gem 'rails-controller-testing'
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
