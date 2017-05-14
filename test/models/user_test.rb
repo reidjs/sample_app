@@ -72,6 +72,10 @@ class UserTest < ActiveSupport::TestCase
     @user.password = @user.password_confirmation = "a" * 4
     assert_not @user.valid?
   end
+  #this test will check if the user tries logging out in a different browser
+  test "authenticated? should return false for a user with nil digest" do
+    assert_not @user.authenticated?('')
+  end
   
 end
 
