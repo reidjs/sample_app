@@ -1,6 +1,6 @@
-one:
-  name: Alice
-  email: alice@example.com
-two:
-  name: Bob
-  email: bob@example.com
+#retrieve this user in a test by doing user = users(:reid)
+reid:
+  name: Reid Example 
+  email: reid@example.com
+  password_digest: <%= User.digest('password') %>
+  
