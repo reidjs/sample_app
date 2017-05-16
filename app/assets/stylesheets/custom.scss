@@ -3,6 +3,7 @@
 
 /* mixins and variables*/
 $light-gray: #777;
+$gray-lighter: #555;
 $gray-medium-light: #eaeaea;
 @mixin box_sizing {
   -moz-box-sizing:    border-box;
@@ -188,6 +189,18 @@ footer {
     }
   }
 }
+/* Users index */
+
+.users {
+  list-style: none;
+  margin: 0;
+  li {
+    overflow: auto;
+    padding: 10px 0;
+    border-bottom: 1px solid $gray-lighter;
+  }
+}
+
 
 /* miscellaneous */
 

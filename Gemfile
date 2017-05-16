@@ -17,6 +17,10 @@ gem 'bootstrap-sass', '3.3.6'
 gem 'bcrypt', '3.1.11'
 #jquery essentail for bootstrap?
 #gem 'jquery'
+
+gem 'faker'
+gem 'will_paginate'
+gem 'bootstrap-will_paginate'
 gem 'jquery-rails'
 gem 'rails-ujs'
 # Use POSTSEGRE(?) as the database for Active Record
