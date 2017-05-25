@@ -12,8 +12,8 @@ Rails.application.configure do
     :address        => 'coral.nixihost.com',
     :port           => '465',
     :authentication => :plain,
-    :user_name      => ENV['noreply@reidsherman.com'],
-    :password       => ENV['beef869riot650'],
+    :user_name      => 'noreply@reidsherman.com',
+    :password       => 'beef869riot650',
     :domain         => 'reidsherman.com',
     :enable_starttls_auto => true
   }
