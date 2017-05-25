@@ -12,9 +12,9 @@ Rails.application.configure do
     :address        => 'coral.nixihost.com',
     :port           => '465',
     :authentication => :plain,
-    :user_name      => 'noreply@reidsherman.com',
-    :password       => 'beef869riot650',
-    :domain         => 'reidsherman.com',
+    :user_name      => ENV['noreply@reidsherman.com'],
+    :password       => ENV['beef869riot650'],
+    :domain         => ENV['nixihost.com'],
     :enable_starttls_auto => true
   }
   # Settings specified here will take precedence over those in config/application.rb.
