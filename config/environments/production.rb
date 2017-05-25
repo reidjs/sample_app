@@ -14,7 +14,6 @@ Rails.application.configure do
     :authentication => :plain,
     :user_name      => ENV['noreply@reidsherman.com'],
     :password       => ENV['beef869riot650'],
-    :domain         => ENV['reidsherman.com'],
     :enable_starttls_auto => true
   }
   # Settings specified here will take precedence over those in config/application.rb.
