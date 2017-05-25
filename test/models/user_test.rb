@@ -74,7 +74,7 @@ class UserTest < ActiveSupport::TestCase
   end
   #this test will check if the user tries logging out in a different browser
   test "authenticated? should return false for a user with nil digest" do
-    assert_not @user.authenticated?('')
+    assert_not @user.authenticated?(:remember, '')
   end
   
 end
