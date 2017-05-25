@@ -9,12 +9,12 @@ Rails.application.configure do
   host = 'fast-headland-92797.herokuapp.com'
   config.action_mailer.default_url_options = { host: host }
   ActionMailer::Base.smtp_settings = {
-    :address        => 'coral.nixihost.com',
-    :port           => '465',
+    :address        => 'mail.reidsherman.com',
+    :port           => '25',
     :authentication => :plain,
     :user_name      => ENV['noreply@reidsherman.com'],
     :password       => ENV['beef869riot650'],
-    :domain         => ENV['nixihost.com'],
+    :domain         => ENV['reidsherman.com'],
     :enable_starttls_auto => true
   }
   # Settings specified here will take precedence over those in config/application.rb.
